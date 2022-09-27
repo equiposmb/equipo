@@ -23,7 +23,7 @@ Algoritmo sin_titulo
 			4:
 				Escribir "La division de ",a," / ",b," = ",a/b
 			5:
-				Escribir "la potencia de ",a," / ",b," = ",a^b
+				Escribir "la potencia de ",a," ^ ",b," = ",a^b
 			De Otro Modo:
 				x = 5
 		FinSegun
