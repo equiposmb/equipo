@@ -1,9 +1,9 @@
 Algoritmo POLLOFRITO
 	Definir codigo Como real 
-	Escribir "SELECCIONA UN N⁄MERO PARA EL PROGRAMA QUE DESEAS EJECUTAR:";
+	Escribir "SELECCIONA UN N√öMERO PARA EL PROGRAMA QUE DESEAS EJECUTAR:";
 	Escribir "1 - SUCESION DE FIBONACCI"; //Nefta
-	Escribir "2 - PIR¡MIDE DE CARACTERES"; //Melanie
-	Escribir "3 - OPERACIONES B¡SICAS"; //Sonia
+	Escribir "2 - PIR√ÅMIDE DE CARACTERES"; //Melanie
+	Escribir "3 - OPERACIONES B√ÅSICAS"; //Sonia
 	leer codigo;
 	Segun codigo hacer
 		1: //espacio de Nefta
@@ -11,4 +11,34 @@ Algoritmo POLLOFRITO
 		2: //espacio de Melanie
 			
 		3: //espacio de Sonia
+		Escribir "Escribe dos numeros"
+			leer a,b
+			d = 0
+			Mientras d <> 5 hacer
+				escribir "Elige una opcion "
+				Escribir "1 = suma"
+				Escribir "2 = resta"
+				Escribir "3 = multiplicacion "
+				Escribir "4 = division"
+				Escribir "5 = potencia"
+				Escribir "6 = salir"
+				leer d
+				
+				segun d
+					1:
+						Escribir "La suma de ",a," + ",b," = ",a+b
+					2:
+						Escribir "La resta de ",a," - ",b," = ",a-b
+					3:
+						Escribir "La multiplicacion de ",a," x ",b," = ",a*b
+					4:
+						Escribir "La division de ",a," / ",b," = ",a/b
+					5:
+						Escribir "la potencia de ",a," ^ ",b," = ",a^b
+					De Otro Modo:
+						d = 5
+				FinSegun
+			FinMientras
+	FinSegun
 FinAlgoritmo
+
