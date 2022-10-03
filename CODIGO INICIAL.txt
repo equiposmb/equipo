@@ -1,0 +1,14 @@
+Algoritmo POLLOFRITO
+	Definir codigo Como real 
+	Escribir "SELECCIONA UN NÚMERO PARA EL PROGRAMA QUE DESEAS EJECUTAR:";
+	Escribir "1 - SUCESION DE FIBONACCI"; //Nefta
+	Escribir "2 - PIRÁMIDE DE CARACTERES"; //Melanie
+	Escribir "3 - OPERACIONES BÁSICAS"; //Sonia
+	leer codigo;
+	Segun codigo hacer
+		1: //espacio de Nefta
+			
+		2: //espacio de Melanie
+			
+		3: //espacio de Sonia
+FinAlgoritmo
