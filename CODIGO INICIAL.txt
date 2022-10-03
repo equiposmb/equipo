@@ -19,6 +19,22 @@ Algoritmo POLLOFRITO
 				b<-c;
 			FinMientras		
 		2: //espacio de Melanie
+Escribir "PIRAMIDE DE CARACTERES"
+				Escribir "Dame un numero";
+				leer n
+				Escribir "dame un signo";
+				leer x;
+				para a=n hasta 1 Con Paso -1
+					para b=1 hasta a con paso 1
+						Escribir " " Sin Saltar
+					FinPara
+					para c=a hasta n Con Paso 1 Hacer
+						Escribir x," " Sin Saltar
+					FinPara
+					Escribir ""
+				FinPara
+FinSegun
+
 			
 		3: //espacio de Sonia
 		Escribir "Escribe dos numeros"
